@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events and other</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box red blue manyclass" style="display: flex;" data-crafedby="harsh">Hey i am under the water</div>
+        <div class="box">Hey my name is Harsh</div>
+        <div class="box">Jagtap</div>
+    </div>
+    <script>
+        // let div=document.createElement('div');
+        // div.setAttribute("class" , "created")
+        // // div.className="alert" alternative method for creating class
+        // div.innerHTML= " <span>Ram Ram this is created by insertion method</span> "
+        // document.querySelector(".container").append(div)
+        let cont = document.querySelector(".container")
+        cont.insertAdjacentHTML("beforeend", "Hey it is insert adjacent html function")
+        
+    </script>
+
+</body>
+
+</html>
